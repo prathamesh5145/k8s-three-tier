@@ -9,8 +9,9 @@ spec:
   ports:
     - port: 80
       protocol: TCP
-      targetrPort: 80
+      targetPort: 80
   selector:
     app: frontend
-  type: LoadBalancer
+  type: 
+    LoadBalancer
 ...
