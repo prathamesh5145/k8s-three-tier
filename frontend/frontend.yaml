@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: prathamesh5145/backend:latest
+          image: prathamesh5145/backend:v1
           ports:
             - containerPort: 80
   replicas: 3
