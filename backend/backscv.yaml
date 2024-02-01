@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: Service
+metadata: 
+  name: backsvc
+  labels:
+    app: backend
+spec:
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 8080
+  type:
+    NodePort
+  selector:
+    app: backend
+... 
