@@ -12,7 +12,7 @@ spec:
       labels: 
         app: backend
     spec:
-      continers:
+      containers:
         - name: backend
           image: prathamesh5145/frontend:latest
           ports:
